@@ -1,0 +1,50 @@
+.small__btn {
+    border: none;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 160px;
+    height: 45px;
+    background-color: $main-color;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    &:hover {
+        transform: scale(1.03);
+        transition: 1s all;
+        background-color: #dc5238;
+    }
+}
+.big__btn {
+    border: none;
+    width: 230px;
+    height: 57px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background-color: $main-color;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.03);
+        transition: 1s all;
+        background-color: #dc5238;
+    }
+}
+
+.big__btn_top {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+}
